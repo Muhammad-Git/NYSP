@@ -73,7 +73,6 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h2>Is this the correct address?</h2>
-						<p><label><?php echo $_POST["Address"]; ?></label></p>
 						<p>If this home is part of a complex please provide the unit number.</p>
 					</div>
 				</div>
@@ -353,7 +352,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="form">
+		<!-- <div class="form">
 			<div class="container ">
 			  <form action="/email-function" method="POST" id="email-form">
 			      <input type="hidden" id="unitnumber" name="unitnumber">
@@ -366,7 +365,7 @@
 			      <input type="hidden" id="hearing" name="hearing">
 			      <input type="hidden" id="fname" name="fname">
 			      <input type="hidden" id="email" name="email">
-			      <input type="hidden" id="address" value="<?php echo $_POST["Address"]; ?>" name="address">
+			      <input type="hidden" id="address"  name="address">
 			        <div class="best-field">
         			      <input type="number" placeholder="Phone Number" name="phone" id="phone" required>
         			      <div class="cbox">
@@ -380,7 +379,7 @@
 			    </div>
 			  </form>
 			</div>
-		</div>
+		</div> -->
 	</div>
 	<div id="step-11">
 		<div class="innerformban">

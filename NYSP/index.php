@@ -31,14 +31,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="img-box text">
                     <img src="assets/images/home-sec-01-img-01.png" alt="">
                     <h3>Tell us about your home and speak to a Home Consultant</h3>
                     <p>This helps us get the best possible offer from our investors for your home.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="img-box text">
                     <img src="assets/images/home-sec-01-img-02.png" alt="">
                     <h3>We use your local<br> 
@@ -46,11 +46,11 @@
                     <p>We use your local neighborhood data and our extensive investor network to find the best offer for your home. </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="img-box text">
                     <img src="assets/images/home-sec-01-img-03.png" alt="">
                     <h3>Accept your cash offer and choose your move date</h3>
-                    <p>Get paid in 10 days.</p>
+                    <p>Get paid in days and pick a move date that works for your schedule. </p>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="img-box text">
                     <a href="#">
                         <img src="assets/images/home-sec-03-img-01.png" alt="">
@@ -95,7 +95,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="img-box text">
                     <a href="#">
                         <img src="assets/images/home-sec-03-img-02.png" alt="">
@@ -104,7 +104,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="img-box text">
                     <a href="#">
                         <img src="assets/images/home-sec-03-img-03.png" alt="">
@@ -228,7 +228,7 @@
                     <h2>CLIENT FAQS</h2>
                 </div>
                 <div id="main">
-                    <div class="container">
+                    <div class="container p-7">
                   <div class="accordion" id="faq">
                                       <div class="card">
                                           <div class="card-header" id="faqhead1">
@@ -238,31 +238,31 @@
                   
                                           <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
                                               <div class="card-body">
-                                               <p> Name your selling price has built a nationwide network of hundreds of pre-approved real estate cash buyers or investors. We let them compete to buy your home, so you can get the best offer.</p>
+                                               <p> Name Your Selling Price has developed an expansive nationwide network featuring hundreds of pre-approved real estate cash buyers and investors. We connect you directly with these investors, simplifying the process of selling your home to a qualified buyer.</p>
                                               </div>
                                           </div>
                                       </div>
                                       <div class="card">
                                           <div class="card-header" id="faqhead2">
                                               <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq2"
-                                              aria-expanded="true" aria-controls="faq2">Do I need an agent to participate?</a>
+                                              aria-expanded="true" aria-controls="faq2">Do I need an agent to receive a cash offer?</a>
                                           </div>
                   
                                           <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
                                               <div class="card-body">
-                                                <p> Name your selling price has built a nationwide network of hundreds of pre-approved real estate cash buyers or investors. We let them compete to buy your home, so you can get the best offer.</p>
+                                                <p> No, you do not need to work with a real estate agent to request an offer with NameYourSellingPrice.</p>
                                               </div>
                                           </div>
                                       </div>
                                       <div class="card">
                                           <div class="card-header" id="faqhead3">
                                               <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq3"
-                                              aria-expanded="true" aria-controls="faq3">Can I sell a home that's currently listed?</a>
+                                              aria-expanded="true" aria-controls="faq3">Can I sell a home that’s currently listed?</a>
                                           </div>
                   
                                           <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
                                               <div class="card-body">
-                                                <p> Name your selling price has built a nationwide network of hundreds of pre-approved real estate cash buyers or investors. We let them compete to buy your home, so you can get the best offer.</p>
+                                                <p> If you're interested in selling your home with an agent we are here to assist you in finding the ideal agent  that suits your preferences.</p>
                                               </div>
                                           </div>
                                       </div>
@@ -274,7 +274,7 @@
                 
                                         <div id="faq4" class="collapse" aria-labelledby="faqhead4" data-parent="#faq">
                                             <div class="card-body">
-                                              <p> Name your selling price has built a nationwide network of hundreds of pre-approved real estate cash buyers or investors. We let them compete to buy your home, so you can get the best offer.</p>
+                                              <p> Absolutely not. You'll have the freedom to choose a move-in date that aligns with your schedule, with options available up to 30 days after the closing.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -286,7 +286,7 @@
                 
                                         <div id="faq5" class="collapse" aria-labelledby="faqhead5" data-parent="#faq">
                                             <div class="card-body">
-                                              <p> Name your selling price has built a nationwide network of hundreds of pre-approved real estate cash buyers or investors. We let them compete to buy your home, so you can get the best offer.</p>
+                                              <p> No! Requesting offers is completely free and there is no obligation. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -298,7 +298,7 @@
                 
                                         <div id="faq6" class="collapse" aria-labelledby="faqhead6" data-parent="#faq">
                                             <div class="card-body">
-                                              <p> Name your selling price has built a nationwide network of hundreds of pre-approved real estate cash buyers or investors. We let them compete to buy your home, so you can get the best offer.</p>
+                                              <p> No, you are not obligated to accept any offers you receive. </p>
                                             </div>
                                         </div>
                                     </div>

@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    <div class="container-fluid p-0">
         <div class="row">
             <div class="col-md-12">
                 <div class="text">
@@ -51,19 +51,13 @@
     slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-            },
-        },
-        {
-            breakpoint: 600,
+            breakpoint: 992,
             settings: {
                 slidesToShow: 2,
             },
         },
         {
-            breakpoint: 480,
+            breakpoint: 767,
             settings: {
                 slidesToShow: 1,
             },
