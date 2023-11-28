@@ -2735,14 +2735,15 @@ form i.fal.fa-long-arrow-right {
 }
 
 .coradd-field input {
-	border-radius: 5px;
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 19%);
-	width: 715px;
-	height: 66px;
-	line-height: 66px;
-	margin: auto;
-	padding: 0 182px 0 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 19%);
+    width: 715px;
+    height: 66px;
+    line-height: 66px;
+    margin: auto;
+    padding: 0 182px 0 35px;
+    width: 100%;
 }
 
 .coradd-field input::placeholder {
@@ -3116,14 +3117,29 @@ ul.property-sell li:hover img {
 }
 
 .home-field input {
-	border-radius: 5px;
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 15%);
-	width: 715px;
-	height: 66px;
-	line-height: 66px;
-	margin: auto;
-	padding: 0 182px 0 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 15%);
+    width: 715px;
+    height: 66px;
+    line-height: 66px;
+    margin: auto;
+    padding: 0 182px 0 35px;
+    width: 100%;
+}
+a.step-btn9 {
+    right: 30px !important;
+    width: 135px !important;
+}
+.offers-field2 input {
+    border-radius: 0 !important;
+}
+input#step-btn9-email {
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+#step-9 .offers-field2 {
+    margin-right: 20px;
 }
 
 .home-field input::placeholder {
@@ -3278,14 +3294,15 @@ input#step-btn9-email {
 }
 
 .offers-field2 input {
-	border-radius: 5px;
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 15%);
-	width: 473px;
-	height: 66px;
-	line-height: 66px;
-	/* margin:auto; */
-	padding: 0 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 15%);
+    width: 473px;
+    height: 66px;
+    line-height: 66px;
+    /* margin: auto; */
+    padding: 0 35px;
+    width: 100%;
 }
 
 .offers-field input::placeholder {
@@ -3299,9 +3316,9 @@ input#step-btn9-email {
 }
 
 .offers-field {
-	position: relative;
-	text-align: center;
-	margin-bottom: 30%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 .offers-field:after {
@@ -3383,14 +3400,17 @@ ul.hearing li a {
 }
 
 .hearing-images {
-	border-radius: 5px;
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 15%);
-	width: 155px;
-	height: 135px;
-	line-height: 170px;
-	text-align: center;
-	margin: auto;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 15%);
+    width: 160px;
+    height: 140px;
+    line-height: 0px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hearing-images img {
@@ -3614,7 +3634,7 @@ min-height: 600px;
 	padding: 0 15px 0 30px;
 	position: absolute;
 	bottom: 12px;
-	right: 21%;
+	right: 21px;
 	/* left: 0; */
 	/* margin: auto; */
 }
@@ -3656,7 +3676,7 @@ min-height: 600px;
 	padding: 0 15px 0 30px;
 	position: absolute;
 	bottom: 12px;
-	right: 21%;
+	right: 21px;
 	/* left: 0; */
 	/* margin: auto; */
 }
@@ -3674,22 +3694,26 @@ min-height: 600px;
 }
 
 .offers-field a {
-	border-radius: 4px;
-	background-color: rgb(243, 184, 64);
-	box-shadow: 0px 15px 43.65px 1.35px rgb(248 90 71 / 20%);
-	width: 136px;
-	height: 44px;
-	line-height: 44px;
-	font-size: 12px;
-	color: #fff;
-	text-align: left;
-	font-weight: 700;
-	padding: 0 15px 0 30px;
-	position: absolute;
-	bottom: 12px;
-	right: 4%;
-	/* left: 0; */
-	/* margin: auto; */
+    border-radius: 4px;
+    background-color: rgb(243, 184, 64);
+    box-shadow: 0px 15px 43.65px 1.35px rgb(248 90 71 / 20%);
+    width: 136px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    font-weight: 700;
+    padding: 0 15px 0 30px;
+    position: absolute;
+    /* bottom: 12px; */
+    right: 20px;
+    /* left: 0; */
+    /* margin: auto; */
+    top: 0;
+    bottom: 0;
+    margin: auto;
+	width: 100%;
 }
 
 .offers-field a:hover {
@@ -4083,6 +4107,52 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 		justify-content: center;
 		align-items: center;
 	}
+	ul.property-type li {
+		margin-right: 15px;
+		padding: 10px 20px 10px 20px;
+		margin-bottom: 15px;
+		width: 30.50%;
+	}
+	ul.property-type span {
+		width: 50px;
+		height: 50px;
+		margin-right: 15px;
+	}
+	ul.property-type li a {
+		font-size: 16px;
+	}
+	ul.property-type {
+		padding-bottom: 0px;
+	}
+	ul.property-built {
+		padding-bottom: 0px;
+	}
+	ul.property-condition {
+		padding-bottom: 0px;
+	}
+	ul.property-sell {
+		padding-bottom: 0px;
+	}
+	.home-field {
+		margin-bottom: 0px;
+	}
+	ul.think-sell {
+		padding-bottom: 0px;
+	}
+	ul.hearing {
+		display: block;
+		padding: 0 50px;
+		margin-bottom: 0px;
+	}
+	.offer-form input {
+		padding: 0px 0px 0px 20px;
+		height: 60px;
+		font-size: 16px;
+		border-radius: 0 !important;
+	}
+
+
+
 }
 
 @media (max-width:1024px) {
@@ -4117,6 +4187,29 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 
 	.scndbox {
 		height: auto;
+	}
+	.innerformban h2 {
+		font-size: 35px !important;
+		margin: 50px 0 30px 0 !important;
+	}
+	.new-step {
+		min-height: 500px;
+		padding-bottom: 0;
+	}
+	ul.property-built li a {
+		font-size: 16px;
+	}
+	ul.property-condition li a {
+		font-size: 16px;
+	}
+	ul.property-sell li a {
+		font-size: 16px;
+	}
+	ul.think-sell li a {
+		font-size: 16px;
+	}
+	ul.hearing {
+		margin-bottom: 30px;
 	}
 }
 
@@ -4193,6 +4286,32 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 	.text h2 {
 		font-size: 30px !important;
 		letter-spacing: -1px;
+	}
+	ul.property-type li {
+		margin-right: 10px;
+		padding: 10px 10px 10px 10px;
+		margin-bottom: 15px;
+		width: 45%;
+	}
+	.innerformban h2 {
+		font-size: 30px !important;
+		margin: 50px 0 30px 0 !important;
+		line-height: 1em;
+	}
+	ul.think-sell li {
+		margin-right: 20px;
+		padding: 15px 35px 15px 20px;
+		width: 45%;
+	}
+	ul.hearing {
+		display: block;
+		padding: 0 0px;
+		margin-bottom: 0px;
+	}
+	.hearing-images {
+		border-radius: 5px;
+		width: 140px;
+		height: 120px;
 	}
 }
 
@@ -4774,6 +4893,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 		line-height: 50px !important;
 		margin-bottom: 10px !important;
 	}
+
 }
 @media (max-width:767px) {
 	body{
@@ -4888,6 +5008,68 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 		bottom: -10px;
 		top: auto;
 	}
+	ul.property-type li a {
+		font-size: 14px;
+	}
+	ul.property-type li {
+		margin-right: 10px;
+		padding: 10px 10px 10px 10px;
+		margin-bottom: 15px;
+		width: 47%;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+	ul.property-type span {
+		width: 40px;
+		height: 40px;
+		margin-right: 10px;
+	}
+	ul.property-type li img { 
+		max-width: 25px;
+		height: 25px;
+		object-fit: contain;
+	}
+	.innerformban p {
+		font-size: 14px;
+		line-height: 1.4em;
+	}
+	body ul li {
+		text-align: center !important;
+	}
+	ul.property-condition li {
+		margin-right: 20px;
+		padding: 15px 15px 15px 15px;
+		width: 43%;
+		text-align: center;
+	}
+	ul.property-sell li {
+		margin-right: 20px;
+		padding: 15px 15px 15px 15px;
+		width: 43%;
+		text-align: center;
+	}
+	ul.think-sell li {
+		margin-right: 20px;
+		padding: 15px 15px 15px 15px;
+		width: 45%;
+	}
+	ul.think-sell li a {
+		font-size: 13px;
+	}
+	.hearing-images {
+		border-radius: 5px;
+		width: 100px;
+		height: 100px;
+	}
+	.hearing-images img {
+		max-width: 40px;
+	}
+	a.step-btn9 {
+		right: 15px !important;
+		width: 130px !important;
+	}
+	
 }
 @media (max-width:575px) {
 	.offer-form button.t-btn {
@@ -5021,6 +5203,123 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 	.home-sec-01 .img-box.text img {
 		margin-bottom: 0px;
 	}
+	.innerformban h2 {
+		font-size: 25px !important;
+		margin: 30px 0 30px 0 !important;
+		line-height: 1em;
+		letter-spacing: 0;
+		word-spacing: 0;
+	}
+	.innerformban p {
+		font-size: 13px;
+		line-height: 1.4em;
+	}
+	a#stepbtn {
+		position: relative !important;
+		display: block;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin-top: 20px;
+	}
+	.coradd-field input {
+		border-radius: 5px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 19%);
+		width: 715px;
+		height: 50px;
+		line-height: 1.4em;
+		margin: auto;
+		padding: 0 20px 0 15px;
+		width: 100%;
+		font-size: 13px !important;
+	}
+	.coradd-field input::placeholder {
+		font-size: 13px !important;
+	}
+ input::placeholder {
+		font-size: 13px !important;
+	}
+	ul.property-type li {
+		margin-right: 0px;
+		padding: 10px 10px 10px 10px;
+		margin-bottom: 15px;
+		width: 85%;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+	ul.property-built li {
+		margin-right: 0px;
+		padding: 15px;
+		display: inline-block;
+		border-radius: 10px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 15px 43.65px 1.35px rgb(0 0 118 / 15%);
+		transition: 0.4s ease-in-out;
+		margin-bottom: 30px;
+		width: 90%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	ul.property-condition li {
+		margin-right: 0px;
+		padding: 15px 15px 15px 15px;
+		width: 90%;
+		text-align: center;
+	}
+	.innerformban {
+		padding-bottom: 15px;
+	}
+	ul.property-sell li {
+		margin-right: 0px;
+		padding: 15px 15px 15px 15px;
+		width: 90%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	ul.property-sell li a {
+		font-size: 14px;
+	}
+	.home-field input {
+		height: 50px;
+		line-height: 1.4em;
+		padding: 0 20px 0 15px;
+		width: 100%;
+	}
+	.home-field a {
+		position: relative;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin-top: 20px;
+	}
+	ul.think-sell li {
+		margin-right: 0px;
+		padding: 15px 15px 15px 15px;
+		width: 90%;
+	}
+	ul.hearing li {
+		display: inline-block;
+		margin-left: 0px;
+		width: 45%;
+	}
+	a.step-btn9 {
+		right: 0px !important;
+		width: 130px !important;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		display: block;
+		position: relative;
+		margin-top: 20px;
+	}
+	
+	
+
 }
 
 
